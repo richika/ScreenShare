@@ -1,0 +1,114 @@
+body{
+    background: url("../img/bg-compressed.jpg") no-repeat;
+    background-size: 100% 100%;
+   	/*background-attachment: fixed;*/
+}
+#nav{
+	width:50%;
+	margin-left: 25%;	
+	margin-top: 4%;
+	font-size: 28px;
+
+}
+#info-btn{
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer; cursor: hand;
+}
+#rule-btn{
+	border-radius: 4px;
+	cursor: pointer; cursor: hand;
+}
+#form-btn{
+	border-radius: 4px;
+	cursor: pointer; cursor: hand;
+}
+#home{
+	font-family: 'Open Sans';
+  	font-style: normal;
+  	font-weight: 300;
+	height: 55%;
+	width:70%;
+	background-color: rgba(255,255,255,0.6);
+	font-size: 20px;
+	font-weight: bolder;
+	color: #343522;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 20px;
+	border: 1px dotted #656565;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#info{
+	display: block;
+	vertical-align: middle;
+	
+}
+#form-team{
+	display: none;
+}
+#rule{
+	display: none;
+}
+#form{
+	display: none;
+	margin-left: 10%;
+}
+#reg_head{
+	position : relative;
+	left : 0px;
+}
+#teamname,
+#member1_name,
+#member1_ph,
+#member2_name,
+#member2_ph,
+#year{
+	border-radius: 4px;
+}
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position:relative;
+	top:150px;
+	left:180px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:152px;
+	left:180px;
+}
+
